@@ -62,3 +62,52 @@ pre{background:#0d2f2e;color:#c8f3e8;border-radius:12px;padding:14px;overflow:au
 .toast.err{background:var(--coral)}
 @media(max-width:820px){body{flex-direction:column}.side{width:100%;height:auto;position:static;padding:14px}nav{flex-direction:row;flex-wrap:wrap;margin-top:12px}.dbtag,.brand p,.ecg{display:none}main{padding:18px}.rxrow{grid-template-columns:1fr 1fr}}
 @media(prefers-reduced-motion:reduce){.ecg path{animation:none;stroke-dashoffset:0}}
+/* --- NEW UPGRADE BY KITOKWA DERICK --- */
+.creator {
+  margin-top: 8px;
+  font-size: 13px;
+  background: #e0f2fe;
+  padding: 6px 10px;
+  border-radius: 20px;
+  color: #0369a1;
+}
+.search-box input {
+  padding: 10px 14px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  width: 260px;
+  font-size: 14px;
+  outline: none;
+}
+.search-box input:focus { border-color: #16a34a; box-shadow: 0 0 0 3px #dcfce7; }
+.tips-banner {
+  background: linear-gradient(90deg, #dcfce7, #fef9c3);
+  border: 1px solid #bbf7d0;
+  padding: 14px 16px;
+  border-radius: 12px;
+  margin: 16px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  font-size: 15px;
+}
+.tips-banner button {
+  background: #16a34a;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.footer {
+  margin-top: 40px;
+  padding: 20px;
+  text-align: center;
+  background: #f8fafc;
+  border-top: 2px solid #16a34a;
+  border-radius: 12px;
+  color: #334155;
+}
+.top h2 { font-size: 28px; font-weight: 800; }
