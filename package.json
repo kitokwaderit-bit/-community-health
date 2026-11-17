@@ -1,0 +1,8 @@
+{
+  "name": "community-health-mongodb",
+  "version": "1.0.0",
+  "description": "Community Health Records - MongoDB (NoSQL) full-stack project: Express API + web GUI",
+  "main": "server.js",
+  "scripts": { "start": "node server.js", "seed": "node seed.js --reset" },
+  "dependencies": { "express": "^4.19.2", "mongodb": "^6.8.0" }
+}

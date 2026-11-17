@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Community Health Records</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside class="side">
+  <div class="brand">
+    <svg viewBox="0 0 200 40" class="ecg" aria-hidden="true"><path d="M0 22 H48 L56 22 L62 6 L72 36 L80 14 L86 22 H200"/></svg>
+    <h1>Community<br>Health</h1>
+    <p>One record, every clinic</p>
+  </div>
+  <nav id="nav">
+    <button data-v="dashboard" class="on">Overview</button>
+    <button data-v="patients">Patients</button>
+    <button data-v="visits">Visits</button>
+    <button data-v="medicines">Medicines &amp; stock</button>
+    <button data-v="clinics">Clinics &amp; doctors</button>
+    <button data-v="dev">Developer console</button>
+  </nav>
+  <div class="dbtag"><span class="dot"></span><div id="dbmode">NoSQL<br><small>community_health</small></div></div>
+</aside>
+<main>
+  <header class="top">
+    <h2 id="title">Overview</h2>
+    <div class="actions" id="actions"></div>
+  </header>
+  <section id="view"></section>
+</main>
+<div id="modal" class="modal" hidden><div class="sheet"><div class="sheet-h"><h3 id="mtitle"></h3><button class="x" id="mclose" aria-label="Close">&times;</button></div><div id="mbody"></div></div></div>
+<div id="toast" class="toast" hidden></div>
+<script src="app.js"></script>
+</body>
+</html>
